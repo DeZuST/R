@@ -1,0 +1,5 @@
+t = input("Введите текст: ")
+k = t.count(":")
+r = t.replace(":", "-")
+print(f"Замен: {k}")
+print(r)

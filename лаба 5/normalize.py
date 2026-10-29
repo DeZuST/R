@@ -1,0 +1,6 @@
+t = input("Введите текст: ")
+n = " ".join(t.split())
+print(f"Исходная длина: {len(t)}")
+print(f"Новая длина: {len(n)}")
+print(n)
+print(f"Слов: {len(n.split())}")
